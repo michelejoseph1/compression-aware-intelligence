@@ -9,7 +9,7 @@
 <h1>compression aware intelligence (cai)</h1>
 
 <p>
-this repo contains a small implementation of the coherence field index (cfi).
+this repo contains a small implementation of the coherence field index (cfi). 
 </p>
 
 <p>
@@ -87,7 +87,7 @@ cfi = CFI(generate=generate, embed=embed)</pre>
 <h2>how this relates to compression tension score (cts)</h2>
 
 <p>
-cfi measures representation stability alone. cts integrates cfi with grounding, contradiction rate, response entropy, and uncertainty. cfi is the internal field signal. cts decides release vs adjust vs refuse.
+cfi measures representation stability alone. cts integrates cfi with grounding, contradiction rate, response entropy, and uncertainty. cfi is the internal field signal. cts decides release vs adjust vs refuse. compression loss → contradiction → compression strain → instability
 </p>
 
 <h2>directory</h2>
