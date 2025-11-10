@@ -17,7 +17,7 @@ cfi measures how stable an llm internal representation is when you make small ch
 </p>
 
 <p>
-this library does not correct responses. it only measures stability. it is intended to be used as one component inside a larger compression tension score or contradiction aware inference workflow.
+when two prompts with the same meaning produce different outputs, the model’s latent representations are in conflict and Compression-Aware Intelligence (CAI) measures that conflict as compression strain. this library does not correct responses. it only measures stability. it is intended to be used as one component inside a larger compression tension score or contradiction aware inference workflow.
 </p>
 
 <h2>installation</h2>
